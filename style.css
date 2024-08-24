@@ -1,0 +1,136 @@
+    /* General Styles */
+    
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: #333;
+        background: linear-gradient(135deg, #f0c27b, #4b1248);
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background: #ece3e3;
+    }
+    
+    .logo img {
+        height: 40px;
+    }
+    
+    .logo span {
+        font-size: 1.4em;
+        margin-left: 10px;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    nav ul li {
+        margin: 0 10px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+    
+    .hero {
+        margin-top: 10px;
+        background: url("/img/bgimg.webp");
+        width: 100vw;
+        height: 55vh;
+        color: #fff;
+        text-align: center;
+        padding: 100px 20px;
+    }
+    
+    .hero h1 {
+        font-size: 3em;
+        margin: 0;
+    }
+    
+    .hero p {
+        font-size: 1.2em;
+    }
+    
+    .details {
+        margin: 20px 0;
+    }
+    
+    .details span {
+        display: block;
+        font-size: 1.5em;
+    }
+    
+    .cta-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #007BFF;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    
+    section {
+        padding: 20px 20px;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    
+    section h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: rgb(12, 12, 12);
+        font-size: x-large;
+    }
+    
+    section p {
+        color: white;
+        font-size: larger;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    form input,
+    form textarea {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    
+    form button {
+        padding: 10px;
+        background: #007BFF;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 10px 20px;
+        background: #f4f4f4;
+        border-top: 2px solid #ddd;
+    }
